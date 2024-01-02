@@ -164,8 +164,7 @@ FROM #clean_data
 WHERE order_delivered_customer_date IS NULL -- Has missing values
  
 DELETE FROM #clean_data
-WHERE order_delivered_customer_date IS NULL -- removing rows with null values, I removed the 2533 rows with date null values because its hard to analyze data without date values
-
+WHERE order_delivered_customer_date IS NULL -- removing rows with null values, I removed the 2533 rows with date null values because its hard to analyze data without date values.
 SELECT *
 FROM #clean_data
 WHERE order_id IS NULL -- No missing values
@@ -208,19 +207,20 @@ SELECT *
 FROM #clean_data
 WHERE payment_value IS NULL -- Has missing values
 
-UPDATE #clean_data SET payment_value = 108.6 WHERE payment_value IS NULL  -- replace null values by the median value of the payment_value column, choosing median over mean because of the presence of extreme outliers
+UPDATE #clean_data SET payment_value = 108.6 WHERE payment_value IS NULL  -- replace null values by the median value of the payment_value column, choosing median over mean because of the presence of extreme outliers. Computed the median value using pandas in python.
+
 
 SELECT *
 FROM #clean_data
 WHERE review_score IS NULL -- Has missing values
 
-UPDATE #clean_data SET review_score = 5.0 WHERE review_score IS NULL -- replace null values by the median value of the review_score column
+UPDATE #clean_data SET review_score = 5.0 WHERE review_score IS NULL -- replace null values by the median value of the review_score column. Compute the median value using pandas in python.
 
 SELECT *
 FROM #clean_data
 WHERE payment_type IS NULL
 
-UPDATE #clean_data SET payment_type = 'others' WHERE payment_type IS NULL -- replace null values by'others' of the payment type column
+UPDATE #clean_data SET payment_type = 'others' WHERE payment_type IS NULL -- replace null values by 'others' of the payment type column
 
 SELECT * FROM #clean_data
 
