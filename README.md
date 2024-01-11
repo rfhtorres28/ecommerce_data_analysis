@@ -34,7 +34,10 @@ Hello there! This project is all about the analysis of Brazilian Olist Web Ecomm
  4. Which country state has the most number of customers?
  5. Which product category has the least customer review score rating?
  6. What is the overall customer satisfaction rate?
- 7. Which payment method most preferred to use by the customers? 
+ 7. Which payment method most preferred to use by the customers?
+
+### Last Phase
+  For each questions, I used group-by method with aggregations and created a table for it. Each resulting table was transferred to Power Bi for Data Visualization. 
 
 ### SQL EDA Implementation 
 
