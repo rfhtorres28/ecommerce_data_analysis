@@ -51,12 +51,8 @@ FROM cleaned_data
 WHERE order_status = 'delivered'
 GROUP BY DATEPART(WEEKDAY, order_purchase_timestamp)
 ```
-  <center><img width="786" alt="Monthly Sales" src="https://github.com/rfhtorres28/ecommerce_data_analysis/assets/153373159/b65e57ed-39f2-449d-aed7-ec5ec1fbd76f"></center>
 
-
-
-
- Total Orders and Sales by Month 
+Total Orders and Sales by Month 
 ```
 SET datefirst 1;
 
@@ -71,6 +67,7 @@ WHERE order_status = 'delivered'
 GROUP BY YEAR(order_purchase_timestamp),
 MONTH(order_purchase_timestamp)
 ```
+
 
 
 Number of Orders by Product Category 
