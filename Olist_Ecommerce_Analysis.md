@@ -1,3 +1,5 @@
+# E-Commerce Sales Analysis
+
 Hello there! This project is all about the analysis of Brazilian Olist Web Ecommerce Data Set that happens during 2016-2018. I perform the analysis using Microsoft SQL Server Management Studio and Python. For python, I was able to perform almost complete data processing from Data Collection (loading the CSV files and Joining Tables), Data Cleaning (Removing duplicates, Handling Missing values and Outliers) to Data Visualization (using Matplotlib and Seaborn libraries). For SQL, the execution is almost the same with python except with the handling of outliers, data plotting and finding correlation between variables because of the absence of data visualization libraries and some statistical function tools. Below is the conlusion drawn from the analysis. 
 
 Insights drawn from the analysis:
