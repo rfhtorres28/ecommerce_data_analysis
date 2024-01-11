@@ -13,13 +13,59 @@ The CSV files are downloaded from kaggle website. I create a database on SQL Ser
 * Power BI - Data Visualization
 * Excel - Data Visualization
 
-### First Phase of Data Analysis
+### First Phase 
  In the initial phase of data preparation, the following tasks were performed: 
 
  1. Using SQL Server to join multiple tables into one complete table of data.
  2. Transfer the complete data to Python for data cleaning.
  3. Remove duplicate rows, change the format of column names, detecting outliers and handling missing values.
  4. Send the cleaned data to SQL Server for Exploratory Data Analysis
+
+### Second Phase
+ EDA involves exploring the sales data to answer some of the following questions:
+
+ 1. What is the number of product orders on weekdays compare during weekends?
+ 2. What month has the most orders and sales?
+ 3. Which product category has the most orders and sales?
+ 4. Which country state has the most number of customers?
+ 5. Which product category has the least customer review score rating?
+ 6. What is the overall customer satisfaction rate?
+ 7. Which payment method most preferred to use by the customers? 
+
+### SQL Implementation 
+
+---
+-- Total Orders and Sales by Week -- 
+SET datefirst 1;
+
+SELECT
+DATEPART(WEEKDAY, order_purchase_timestamp) as day_of_week,
+COUNT(order_id) as orders,
+AVG(payment_value) as revenue
+INTO daily_orders_sales
+FROM cleaned_data
+WHERE order_status = 'delivered'
+GROUP BY DATEPART(WEEKDAY, order_purchase_timestamp)
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
