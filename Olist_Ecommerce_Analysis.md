@@ -1,19 +1,31 @@
 # E-Commerce Sales Analysis
 
 ### Project Overview
-Hello there! This project is all about the analysis of Brazilian Olist Web Ecommerce Performance that happens during 2016-2018. I performed the analysis using Microsoft SQL Server Management Studio and Python for Data Quality assessment and Exploratory Data Analysis. For Data Visualization, I used Power BI and Python's Matplotlib and Seaborn Libraries.  
+Hello there! This project is all about the analysis of Brazilian Olist Web Ecommerce Performance that happens during 2016-2018. I performed the analysis using Microsoft SQL Server Management Studio and Python for Data Quality Assessment and Exploratory Data Analysis. For Data Visualization, I used Power BI and Python's Matplotlib and Seaborn Libraries.  
 
 
 ### Data Sources 
 The CSV files are downloaded from kaggle website. I create a database on SQL Server and created tables for each file. 
 
 ### Tools 
-* SQL Server
-* Python
-* Power BI
-* Excel
+* SQL Server - Data Wrangling / Exploratory Data Analysis
+* Python - Data Cleaning / Exploratory Data Analysis
+* Power BI - Data Visualization
+* Excel - Data Visualization
 
-  
+### First Phase of Data Analysis
+ In the initial phase of data preparation, the following tasks were performed: 
+
+ 1. Using SQL Server to join multiple tables into one complete table of data.
+ 2. Transfer the complete data to Python for data cleaning.
+ 3. Remove duplicate rows, change the format of column names, detecting outliers and handling missing values.
+ 4. Send the cleaned data to SQL Server for Exploratory Data Analysis
+
+
+
+
+
+ 
 
 Insights drawn from the analysis:
 
