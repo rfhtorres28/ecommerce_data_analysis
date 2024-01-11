@@ -172,6 +172,9 @@ FROM cleaned_data
 
 ## Overview of the results
 
+![olist_ecommerce_insight_final-1](https://github.com/rfhtorres28/ecommerce_data_analysis/assets/153373159/dc4eb53d-b6e9-47a1-b2b8-1f75e0bffe4c)
+![olist_ecommerce_insight_final-2](https://github.com/rfhtorres28/ecommerce_data_analysis/assets/153373159/df5d99a3-f91a-4a96-bf0a-3311fbf5b726)
+![olist_ecommerce_insight_final-3](https://github.com/rfhtorres28/ecommerce_data_analysis/assets/153373159/116428a7-d136-4b29-bb1f-7e569b0d07d2)
 
 
 
