@@ -170,7 +170,7 @@ FROM cleaned_data
 
 ### Insights and Recommendation
 
-1. From the tiem series graph, it can be observed that the number of orders declines during weekdays and increases during 
+1. From the time series graph, it can be observed that the number of orders declines during weekdays and increases during 
 weekends from the dayweek graph. I think most people during weekends have no work and has more time shopping online. For month, september and october
 has the least count of orders. Olist marketing team should focus more on making effective campaign strategy during these periods to increase its order sales. 
 
