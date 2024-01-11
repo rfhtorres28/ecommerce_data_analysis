@@ -7,6 +7,7 @@ Hello there! This project is all about the analysis of Brazilian Olist Web Ecomm
 ### Data Sources 
 The CSV files were downloaded from kaggle website. I create a database on SQL Server and created tables for each file. 
 
+# Methods
 ### Tools 
 * SQL Server - Data Wrangling / Exploratory Data Analysis
 * Python - Data Cleaning / Exploratory Data Analysis
