@@ -1,5 +1,8 @@
 # E-Commerce Sales Analysis
 
+## Authors
+* @rfhtorres28
+  
 ### Project Overview
 Hello there! This project is all about the analysis of Brazilian Olist Web Ecommerce Performance that happens during 2016-2018. I performed the analysis using Microsoft SQL Server Management Studio and Python for Data Quality Assessment and Exploratory Data Analysis. For Data Visualization, I used Power BI and Python's Matplotlib and Seaborn Libraries.  
 
