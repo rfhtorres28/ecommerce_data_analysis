@@ -7,7 +7,7 @@
 Hello there! This project is all about the analysis of Brazilian Olist Web Ecommerce Performance that happens during 2016-2018. I performed the analysis using Microsoft SQL Server Management Studio and Python for Data Quality Assessment and Exploratory Data Analysis. For Data Visualization, I used Power BI and Python's Matplotlib and Seaborn Libraries.  
 
 ## Data Source
-* The CSV files were downloaded from kaggle website. I create a database on SQL Server and created tables for each file. 
+* The CSV files were downloaded from kaggle website. I created a database on SQL Server and make tables for each file. 
 
 ## Tools 
 * SQL Server - Data Wrangling / Exploratory Data Analysis
