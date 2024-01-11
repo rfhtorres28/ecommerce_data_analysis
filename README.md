@@ -37,7 +37,7 @@ Hello there! This project is all about the analysis of Brazilian Olist Web Ecomm
  7. Which payment method most preferred to use by the customers?
 
 ### Last Phase
-  For each questions, I used group-by method with aggregations and created a table for it. Each resulting table was transferred to Power Bi for Data Visualization. 
+  For each questions, I used group-by with aggregation method and created a table for it. Each resulting table was transferred to Power Bi for Data Visualization. 
 
 ### SQL EDA Implementation 
 
