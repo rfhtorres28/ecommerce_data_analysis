@@ -5,7 +5,7 @@ Hello there! This project is all about the analysis of Brazilian Olist Web Ecomm
 
 
 ### Data Sources 
-The CSV files are downloaded from kaggle website. I create a database on SQL Server and created tables for each file. 
+The CSV files were downloaded from kaggle website. I create a database on SQL Server and created tables for each file. 
 
 ### Tools 
 * SQL Server - Data Wrangling / Exploratory Data Analysis
@@ -168,31 +168,7 @@ FROM cleaned_data
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-Insights drawn from the analysis:
+### Insights and Recommendation
 
 1. From the Day of Week Trend graph, it can be observed that the number of orders declines during weekdays and increases during 
 weekends. I think most people during weekends have no work and has more time shopping online. Olist marketing team should focus more on
