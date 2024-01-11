@@ -36,7 +36,7 @@ Hello there! This project is all about the analysis of Brazilian Olist Web Ecomm
  6. What is the overall customer satisfaction rate?
  7. Which payment method most preferred to use by the customers? 
 
-# SQL EDA Implementation 
+## SQL EDA Implementation 
 
 Total Sales and Orders by Day of Week
 ```
