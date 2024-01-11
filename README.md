@@ -11,9 +11,9 @@ Hello there! This project is all about the analysis of Brazilian Olist Web Ecomm
 
 ## Tools 
 * SQL Server - Data Wrangling / Exploratory Data Analysis
-* Python - Data Cleaning / Exploratory Data Analysis
+* Python - Data Cleaning 
 * Power BI - Data Visualization
-* Excel - Data Visualization
+
   
 # Methods
 
