@@ -7,12 +7,13 @@ Hello there! This project is all about the analysis of Brazilian Olist Web Ecomm
 ### Data Sources 
 The CSV files were downloaded from kaggle website. I create a database on SQL Server and created tables for each file. 
 
-# Methods
 ### Tools 
 * SQL Server - Data Wrangling / Exploratory Data Analysis
 * Python - Data Cleaning / Exploratory Data Analysis
 * Power BI - Data Visualization
 * Excel - Data Visualization
+  
+# Methods
 
 ### First Phase 
  In the initial phase of data preparation, the following tasks were performed: 
@@ -33,7 +34,7 @@ The CSV files were downloaded from kaggle website. I create a database on SQL Se
  6. What is the overall customer satisfaction rate?
  7. Which payment method most preferred to use by the customers? 
 
-### SQL EDA Implementation 
+# SQL EDA Implementation 
 
 Total Sales and Orders by Day of Week
 ```
