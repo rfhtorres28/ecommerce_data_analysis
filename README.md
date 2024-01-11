@@ -69,7 +69,6 @@ MONTH(order_purchase_timestamp)
 ```
 
 
-
 Number of Orders by Product Category 
 ```
 SELECT 
@@ -113,7 +112,6 @@ FROM cleaned_data
 GROUP BY product_category_name
 ORDER BY AVG(DATEDIFF(DAY, order_purchase_timestamp, order_delivered_customer_date)) DESC
 ```
-
 
 Customer Review Scores
 ```
@@ -171,6 +169,11 @@ COUNT(order_id) as customer_satisfaction_rate
 INTO customer_satisfaction_rate
 FROM cleaned_data
 ```
+
+## Overview of the results
+
+
+
 
 
 ### Insights and Recommendation
