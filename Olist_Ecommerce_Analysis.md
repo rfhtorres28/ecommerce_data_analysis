@@ -35,7 +35,7 @@ The CSV files are downloaded from kaggle website. I create a database on SQL Ser
 ### SQL Implementation 
 
 ---
--- Total Orders and Sales by Week -- 
+--- Total Sales and Orders by Day of Weeks
 SET datefirst 1;
 
 SELECT
@@ -46,6 +46,7 @@ INTO daily_orders_sales
 FROM cleaned_data
 WHERE order_status = 'delivered'
 GROUP BY DATEPART(WEEKDAY, order_purchase_timestamp)
+
 ---
 
 
