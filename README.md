@@ -21,7 +21,7 @@ I performed the analysis using Microsoft SQL Server Management Studio and Python
 ### First Phase 
  In the initial phase of data preparation, the following tasks were performed: 
 
- 1. Using SQL Server to join multiple tables into one complete table of data.
+ 1. Using SQL Server to join multiple tables into one complete table of data (see the uploaded query file for joining tables).
  2. Transfer the complete data to Python for data cleaning.
  3. Remove duplicate rows, change the format of column names, detecting outliers and handling missing values.
  4. Send the cleaned data to SQL Server for Exploratory Data Analysis
