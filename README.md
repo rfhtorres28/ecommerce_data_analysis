@@ -5,7 +5,7 @@
   
 ## Table of Contents
 *[Methods](#Methods)
-*[Data_Cleaning_Process](#Data Cleaning)
+*[Data_Cleaning_Process](#Data_Cleaning_Process)
 
 
 ## Project Overview
