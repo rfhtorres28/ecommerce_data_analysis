@@ -16,7 +16,7 @@ Hello there! This project is all about the analysis of Brazilian Olist Web Ecomm
 
   
 ## Methods
-I performed the analysis using Microsoft SQL Server Management Studio and Python for Data Quality Assessment and Exploratory Data Analysis. First, I used SQL Server to join tables from CSV files since it is much easier to use SQL for Data Wrangling specifically combining data tables.Then I used python for data cleaning since it has more statistical tools that can help me detect and assess outliers for numeric data columns. It has also boxplot graphs for easy visualization of outliers.Finally, I used Power BI and Python's Matplotlib and Seaborn Libraries. In added bonus, I also used python for Exploratory Data Analysis just to show that EDA is also possible in python. 
+I performed the analysis using Microsoft SQL Server Management Studio and Python for Data Quality Assessment and Exploratory Data Analysis. First, I used SQL Server to join tables from CSV files since it is much easier to use SQL for some Data Wrangling process specifically combining data tables.Then I used python for data cleaning since it has more statistical tools that can help me detect and assess outliers for numeric data columns. It has also boxplot graphs for easy visualization of outliers.Finally, I used Power BI and Python's Matplotlib and Seaborn Libraries. In added bonus, I also used python for Exploratory Data Analysis just to show that EDA is also possible in python. 
 
 ### First Phase 
  In the initial phase of data preparation, the following tasks were performed: 
