@@ -1,4 +1,5 @@
 # OLIST E-Commerce Performance Sales Analysis
+![olist](https://github.com/rfhtorres28/ecommerce_data_analysis/assets/153373159/a2ea3439-2032-4a8c-981e-b72703ae53ea)
 
 ## Authors
 * [rfhtorres28](https://github.com/rfhtorres28)
