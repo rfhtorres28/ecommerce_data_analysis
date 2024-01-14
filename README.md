@@ -5,8 +5,8 @@
   
 ## Table of Contents
 * [Methods](#Methods)
-
 * [Data_Cleaning_Process](#Data_Cleaning_Process)
+* [SQL_EDA_Implementation](#SQL_EDA_Implementation)
 
 
 ## Project Overview
@@ -69,7 +69,7 @@ Steps:
 
 
 
-### SQL EDA Implementation 
+### SQL_EDA_Implementation 
 
 Total Sales and Orders by Day of Week
 ```
