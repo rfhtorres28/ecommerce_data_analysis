@@ -41,7 +41,7 @@ for Exploratory Data Analysis just to show that EDA is also possible in python.
   For each questions, I used group-by with aggregation method and created a table for it. Each resulting table was transferred to Power Bi for Data Visualization. 
 
 ## Python Data Cleaning Process 
-Notebook file for Data Cleaning is uploaded in the repository section. 
+Notebook file code for Data Cleaning is uploaded in the repository section. 
 
 Steps: 
 
