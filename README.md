@@ -4,15 +4,16 @@
 * [rfhtorres28](https://github.com/rfhtorres28)
   
 ## Project Overview
-Hello there! This project is all about the analysis of Brazilian Olist Web Ecommerce Performance that happens during 2016-2018. I performed the analysis using Microsoft SQL Server Management Studio and Python for Data Quality Assessment and Exploratory Data Analysis. I used python for data cleaning since it has more statistical tools that can help me detect and assess outliers for numeric data columns. It has also boxplot graphs for easy visualization of outliers. For Data Visualization, I used Power BI and Python's Matplotlib and Seaborn Libraries.  
+Hello there! This project is all about the analysis of Brazilian Olist Web Ecommerce Performance that happens during 2016-2018. I performed the analysis using Microsoft SQL Server Management Studio and Python for Data Quality Assessment and Exploratory Data Analysis. I used python for data cleaning since it has more statistical tools that can help me detect and assess outliers for numeric data columns. It has also boxplot graphs for easy visualization of outliers. For Data Visualization, I used Power BI and Python's Matplotlib and Seaborn Libraries. I also used python
+for Exploratory Data Analysis just to show that EDA is also possible in python. 
 
 ## Data Source
 * The CSV files were downloaded from kaggle website. I created a database on SQL Server and make tables for each file. 
 
 ## Tools 
 * SQL Server - Data Wrangling / Exploratory Data Analysis
-* Python - Data Cleaning 
-* Power BI - Data Visualization
+* Python - Data Cleaning / Exploratory Data Analysis
+* Power BI / Matplotlib and Seaborn Libraries - Data Visualization
 
   
 # Methods
@@ -196,13 +197,16 @@ INTO customer_satisfaction_rate
 FROM cleaned_data
 ```
 
-## Overview of the results
+## Overview of the Results 
+
+#### Using Power BI 
 
 ![olist_ecommerce_insight_final-1](https://github.com/rfhtorres28/ecommerce_data_analysis/assets/153373159/dc4eb53d-b6e9-47a1-b2b8-1f75e0bffe4c)
 ![olist_ecommerce_insight_final-2](https://github.com/rfhtorres28/ecommerce_data_analysis/assets/153373159/df5d99a3-f91a-4a96-bf0a-3311fbf5b726)
 ![olist_ecommerce_insight_final-3](https://github.com/rfhtorres28/ecommerce_data_analysis/assets/153373159/116428a7-d136-4b29-bb1f-7e569b0d07d2)
 
-
+#### Using Matplotlib and Seaborn
+See the jupyter notebook file for the visualization results. 
 
 
 ### Insights and Recommendation
