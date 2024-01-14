@@ -4,7 +4,9 @@
 * [rfhtorres28](https://github.com/rfhtorres28)
   
 ## Table of Contents
-*[Tools](#tools)
+[Methods](#Methods)
+[Python Data Cleaning Process ](#Data Cleaning)
+
 
 ## Project Overview
 Hello there! This project is all about the analysis of Brazilian Olist Web Ecommerce Performance that happens during 2016-2018. 
