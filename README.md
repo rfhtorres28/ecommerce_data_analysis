@@ -4,8 +4,9 @@
 * [rfhtorres28](https://github.com/rfhtorres28)
   
 ## Table of Contents
-*[Methods](#Methods)
-*[Data_Cleaning_Process](#Data_Cleaning_Process)
+* [Methods](#Methods)
+
+* [Data_Cleaning_Process](#Data_Cleaning_Process)
 
 
 ## Project Overview
