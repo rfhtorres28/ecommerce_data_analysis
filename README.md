@@ -49,7 +49,7 @@ I performed the analysis using Microsoft SQL Server Management Studio and Python
 
 ## Data_Cleaning_Process 
 Python Notebook file code for Data Cleaning is uploaded in the repository section. 
-[https://github.com/rfhtorres28/ecommerce_data_analysis/blob/main/olist_analysis_ecommerce_withsql.ipynb] (#Python Code)
+https://github.com/rfhtorres28/ecommerce_data_analysis/blob/main/olist_analysis_ecommerce_withsql.ipynb
 
 Steps: 
 
