@@ -206,7 +206,7 @@ FROM cleaned_data
 ![olist_ecommerce_insight_final-3](https://github.com/rfhtorres28/ecommerce_data_analysis/assets/153373159/116428a7-d136-4b29-bb1f-7e569b0d07d2)
 
 #### Using Matplotlib and Seaborn
-See the jupyter notebook file for the visualization results. 
+* See the jupyter notebook file for the visualization results. 
 
 
 ### Insights and Recommendation
