@@ -6,7 +6,7 @@
 ## Table of Contents
 * [Methods](#Methods)
 
-* [Data Cleaning Process](#Data Cleaning Process)
+* [Data_Cleaning_Process](#Data_Cleaning_Process)
 
 
 ## Project Overview
@@ -46,7 +46,7 @@ I performed the analysis using Microsoft SQL Server Management Studio and Python
 ### Last Phase
   For each questions, I used group-by with aggregation method and created a table for it. Each resulting table was transferred to Power Bi for Data Visualization. 
 
-## Data Cleaning Process 
+## Data_Cleaning_Process 
 Python Notebook file code for Data Cleaning is uploaded in the repository section. 
 
 Steps: 
