@@ -4,8 +4,7 @@
 * [rfhtorres28](https://github.com/rfhtorres28)
   
 ## Project Overview
-Hello there! This project is all about the analysis of Brazilian Olist Web Ecommerce Performance that happens during 2016-2018. I performed the analysis using Microsoft SQL Server Management Studio and Python for Data Quality Assessment and Exploratory Data Analysis. I first used SQL Server to join tables from the CSV files since it is much easier to use SQL for Data Wrangling specifically combining data tables.Then I used python for data cleaning since it has more statistical tools that can help me detect and assess outliers for numeric data columns. It has also boxplot graphs for easy visualization of outliers. For Data Visualization, I used Power BI and Python's Matplotlib and Seaborn Libraries. I also used python
-for Exploratory Data Analysis just to show that EDA is also possible in python. 
+Hello there! This project is all about the analysis of Brazilian Olist Web Ecommerce Performance that happens during 2016-2018. 
 
 ## Data Source
 * The CSV files were downloaded from kaggle website. I created a database on SQL Server and make tables for each file. 
@@ -16,7 +15,8 @@ for Exploratory Data Analysis just to show that EDA is also possible in python.
 * Power BI / Matplotlib and Seaborn Libraries - Data Visualization
 
   
-# Methods
+## Methods
+I performed the analysis using Microsoft SQL Server Management Studio and Python for Data Quality Assessment and Exploratory Data Analysis. First, I used SQL Server to join tables from CSV files since it is much easier to use SQL for Data Wrangling specifically combining data tables.Then I used python for data cleaning since it has more statistical tools that can help me detect and assess outliers for numeric data columns. It has also boxplot graphs for easy visualization of outliers. After that, I used Power BI and Python's Matplotlib and Seaborn Libraries. In added bonus, I also used python for Exploratory Data Analysis just to show that EDA is also possible in python. 
 
 ### First Phase 
  In the initial phase of data preparation, the following tasks were performed: 
