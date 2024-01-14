@@ -7,7 +7,7 @@
 * [Methods](#Methods)
 * [Data_Cleaning_Process](#Data_Cleaning_Process)
 * [SQL_EDA_Implementation](#SQL_EDA_Implementation)
-* [Overview_of_the_Results](#Overview_of_the_Results)
+* [Overview of the Results](#Overview of the Results)
 
 ## Project Overview
 Hello there! This project is all about the analysis of Brazilian Olist Web Ecommerce Performance that happens during 2016-2018. 
