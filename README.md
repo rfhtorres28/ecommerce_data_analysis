@@ -39,6 +39,29 @@ Hello there! This project is all about the analysis of Brazilian Olist Web Ecomm
 ### Last Phase
   For each questions, I used group-by with aggregation method and created a table for it. Each resulting table was transferred to Power Bi for Data Visualization. 
 
+## Python Data Cleaning Process 
+Notebook file for Data Cleaning is uploaded in the repository section. 
+
+Steps: 
+
+1. Load the CSV file using pd.read_csv()
+2. Remove unecessary characters on column title and capitalize each word.
+3. Repeat step 2 for each category columns.
+4. Select necessary columns for analysis.
+5. Drop duplicate rows.
+6. Detect outliers by graphing each numeric column using boxplot.
+7. If the graph is skewed distribution and has potential outliers, use inter quartile rule for removing outliers.
+8. If the graph is symmetric distribution, use standard deviation rule for removing outliers.
+9. If the outliers are valid values for each column, just retain them.
+10. If the count of outliers are almost 10% of the total values on that column, retain them. Removing the outliers or replacing them can affect the accuracy of the result since 10% is significant.
+11. Detect null values and replace them with zero or median value.
+12. If the numeric column has null values with extreme outliers, use the median value as a replacement for null values instead of mean value since it can be affected due to presence of extreme outliers.
+13. For categorical column, if the number of null values is significant, I replace them with 'Others' category for categorical columns.
+14. Inspect each columns if they have correct data types.
+15. Transfer the cleaned dataframe to SQL Server for Exploratory Data Analysis.
+
+
+
 ### SQL EDA Implementation 
 
 Total Sales and Orders by Day of Week
