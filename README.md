@@ -7,7 +7,8 @@
 * [Methods](#Methods)
 * [Data_Cleaning_Process](#Data_Cleaning_Process)
 * [SQL_EDA_Implementation](#SQL_EDA_Implementation)
-* [Overview of the Results](#Overview of the Results)
+* [Overview_of_the_Results](#Overview_of_the_Results)
+* [Insights_and_Recommendation](#Insights_and_Recommendation)
 
 ## Project Overview
 Hello there! This project is all about the analysis of Brazilian Olist Web Ecommerce Performance that happens during 2016-2018. 
@@ -203,7 +204,7 @@ INTO customer_satisfaction_rate
 FROM cleaned_data
 ```
 
-## Overview of the Results 
+## Overview_of_the_Results 
 
 #### Using Power BI 
 
@@ -215,7 +216,7 @@ FROM cleaned_data
 * See the jupyter notebook file for the visualization results. 
 
 
-### Insights and Recommendation
+### Insights_and_Recommendation
 
 1. From the time series graph, it can be observed that the number of orders declines during weekdays and increases during 
 weekends from the dayweek graph. I think most people during weekends have no work and has more time shopping online. For month, september and october
