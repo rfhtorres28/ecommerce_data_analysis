@@ -1,4 +1,4 @@
-# E-Commerce Sales Analysis
+# OLIST E-Commerce Performance Sales Analysis
 
 ## Authors
 * [rfhtorres28](https://github.com/rfhtorres28)
