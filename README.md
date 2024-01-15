@@ -1,5 +1,8 @@
 # OLIST E-Commerce Performance Sales Analysis
 
+## Project Overview
+Hello there! This project is all about the analysis of Brazilian Olist Web Ecommerce Performance that happens during 2016-2018. 
+
 ## Authors
 * [rfhtorres28](https://github.com/rfhtorres28)
   
@@ -9,9 +12,6 @@
 * [SQL_EDA_Implementation](#SQL_EDA_Implementation)
 * [Overview_of_the_Results](#Overview_of_the_Results)
 * [Insights_and_Recommendation](#Insights_and_Recommendation)
-
-## Project Overview
-Hello there! This project is all about the analysis of Brazilian Olist Web Ecommerce Performance that happens during 2016-2018. 
 
 ## Data Source
 * The CSV files were downloaded from kaggle website. I created a database on SQL Server and make tables for each file. 
